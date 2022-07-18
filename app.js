@@ -1,13 +1,13 @@
 'use strict';
 function aboutFunc() {
-	window.location.href="jacobwheelock.com";
+	window.location.href="";
 }
 function aboutFunc() {
-	window.location.href="jacobwheelock.com/about";
+	window.location.href="/about";
 }
 function pubFunc() {
-	window.location.href="jacobwheelock.com/publications";
+	window.location.href="/publications";
 }
 function expFunc() {
-	window.location.href="jacobwheelock.com/experience";
+	window.location.href="/experience";
 }
