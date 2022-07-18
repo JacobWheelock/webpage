@@ -15,5 +15,10 @@
 			<li class="list">Add Light and Dark Themes </li>
 			<li> Enable Switching the Theme </li>
 		</ul>
+		<div>
+			<button class="btn">About Me</button>
+		</div>
+		<script src="app.s"></script>
+		<noscript>You need to enable JavaScript to view the full site.</noscript>
 	</body>
 </html>

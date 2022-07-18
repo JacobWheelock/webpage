@@ -1,21 +1,46 @@
+:root {
+	--back: #121212;
+	--menu: #181818;
+	--topgrad: #404040;
+	--botgrad: #282828;
+	--ptext: #FFFFFF;
+	--stext: #B3B3B3;
+}
 body {
-    font-family: monospace;
+	background: var(--bg);
+	color: var(--fontColor);
+	font-family: helvetica;
 }
 
-ul {
-    font-family: helvetica;
-}
 li {
 	list-style: circle;
 }
 .list {
 	list-style:square;
 }
-#msg {
-	font-family: monospace;
-}
 .dark-theme {
-	color: #FFFFFF;
-	background #121212;
+	--bg: var(--back);
+	--fontColor: var(--ptext);
 }
-
+.btn {
+	position: absolute;
+	top: 20px;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	/*left: 250px;
+	height: 50px;
+	width 50px;*/
+	border-radius: 2px;
+	border: 1px solid black;
+	float: left;
+	color: var(--ptext);
+	background-color: var(--botgrad);
+	transition-duration: 0.4s;
+}
+.btn:hover {
+	background-color: var(--topgrad);
+	color: var(--ptext);
+}
