@@ -1,5 +1,15 @@
+:root {
+	--back: #121212;
+	--menu: #181818;
+	--topgrad: #404040;
+	--botgrad: #282828;
+	--ptext: #FFFFFF;
+	--stext: #B3B3B3;
+}
 body {
-    font-family: monospace;
+	background: var(--bg);
+	color: var(--fontColor);
+	font-family: helvetica;
 }
 
 ul {
@@ -15,7 +25,8 @@ li {
 	font-family: monospace;
 }
 .dark-theme {
-	color: #FFFFFF;
-	background #121212;
+	--bg: var(--back);
+	-fontColor: var(--ptext);
 }
+
 
