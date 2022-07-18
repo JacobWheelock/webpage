@@ -7,6 +7,7 @@
 	--stext: #B3B3B3;
 }
 body {
+	margin: 0px;
 	background: var(--bg);
 	color: var(--fontColor);
 	font-family: helvetica;
@@ -14,6 +15,9 @@ body {
 
 li {
 	list-style: circle;
+}
+h1 {
+	text-align:center;
 }
 .list {
 	list-style:square;
@@ -23,24 +27,26 @@ li {
 	--fontColor: var(--ptext);
 }
 .btn {
-	position: absolute;
-	top: 20px;
+	width: 10%;	
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-	/*left: 250px;
-	height: 50px;
-	width 50px;*/
-	border-radius: 2px;
-	border: 1px solid black;
+	border: none;
 	float: left;
 	color: var(--ptext);
 	background-color: var(--botgrad);
 	transition-duration: 0.4s;
+	cursor:pointer;
 }
 .btn:hover {
 	background-color: var(--topgrad);
 	color: var(--ptext);
+}
+
+.buttons {
+	width: 100%;
+	overflow:auto;
+	background-color: var(--botgrad);
 }

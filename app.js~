@@ -1,5 +1,7 @@
 'use strict';
-const switcher = document.querySelector('.btn');
-switcher.addEventListener('click', function()) {
+function aboutFunc() {
+	window.location.href="jacobwheelock.com/about";
+}
+function researchFunc() {
 	window.location.href="jacobwheelock.com/about";
 }
