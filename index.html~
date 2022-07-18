@@ -17,8 +17,9 @@
 		</ul>
 		<div>
 			<button class="btn">About Me</button>
+			<button class="btn">Research Interests</button>
 		</div>
-		<script src="app.s"></script>
+		<script src="app.js"></script>
 		<noscript>You need to enable JavaScript to view the full site.</noscript>
 	</body>
 </html>
