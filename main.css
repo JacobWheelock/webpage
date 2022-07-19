@@ -12,19 +12,27 @@ body {
 	color: var(--fontColor);
 	font-family: helvetica;
 }
-
-li {
-	list-style: circle;
-	text-align:center;
-}
 h1 {
 	text-align:center;
 }
 p {
 	text-align:center;
+	font-size:18px;
+	margin-top:40px;
 }
-.list {
-	list-style:square;
+.section {
+	position:absolute;
+	left:40%;
+	top:40%;
+	-webkit-transform:translate(-40%,-40%);
+	transform:translate(-40%,-40%);	
+}
+.image {
+	float:left;
+	border-radius:50%;
+	width:40%;
+	height:50%;
+	margin-right:50px;
 }
 .dark-theme {
 	--bg: var(--back);
@@ -53,4 +61,24 @@ p {
 	width: 100%;
 	overflow:auto;
 	background-color: var(--botgrad);
+}
+
+.btn2 {
+	width: 200px;
+	height:50px;
+	margin-left:4%;
+	margin-top:20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border: none;
+	float: left;
+	color: var(--ptext);
+	background-color: var(--botgrad);
+	transition-duration: 0.4s;
+	cursor:pointer;
+}
+.btn2:hover {
+	background-color: var(--topgrad);
+	color: var(--ptext);
 }

@@ -11,4 +11,3 @@ function pubFunc() {
 function expFunc() {
 	window.location.replace("https://jacobwheelock.com/experience");
 }
-

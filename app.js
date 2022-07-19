@@ -11,3 +11,9 @@ function pubFunc() {
 function expFunc() {
 	window.location.replace("https://jacobwheelock.com/experience");
 }
+function gitFunc() {
+	window.location.replace("https://github.com/JacobWheelock");
+}
+function resFunc() {
+	window.open("Resume.pdf");
+}
