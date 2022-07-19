@@ -1,6 +1,6 @@
 'use strict';
-function aboutFunc() {
-	window.location.href="";
+function homeFunc() {
+	window.location.href="www.jacobwheelock.com";
 }
 function aboutFunc() {
 	window.location.href="about/index.html";
