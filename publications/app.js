@@ -11,3 +11,6 @@ function pubFunc() {
 function expFunc() {
 	window.location.replace("https://jacobwheelock.com/experience");
 }
+function musicFunc() {
+	window.location.replace("https://jacobwheelock.com/music");
+}

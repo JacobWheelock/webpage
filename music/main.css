@@ -1,0 +1,56 @@
+:root {
+	--back: #121212;
+	--menu: #181818;
+	--topgrad: #404040;
+	--botgrad: #282828;
+	--ptext: #FFFFFF;
+	--stext: #B3B3B3;
+}
+body {
+	margin: 0px;
+	background: var(--bg);
+	color: var(--fontColor);
+	font-family: helvetica;
+}
+
+li {
+	list-style: circle;
+	text-align:center;
+}
+h1 {
+	text-align:center;
+}
+p {
+	text-align:center;
+}
+.list {
+	list-style:square;
+}
+.dark-theme {
+	--bg: var(--back);
+	--fontColor: var(--ptext);
+}
+.btn {
+	width: 10%;	
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border: none;
+	float: left;
+	color: var(--ptext);
+	background-color: var(--botgrad);
+	transition-duration: 0.4s;
+	cursor:pointer;
+}
+.btn:hover {
+	background-color: var(--topgrad);
+	color: var(--ptext);
+}
+
+.buttons {
+	width: 100%;
+	overflow:auto;
+	background-color: var(--botgrad);
+}

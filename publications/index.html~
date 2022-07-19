@@ -13,9 +13,10 @@
 			<button class="btn" onclick="aboutFunc()">About Me</button>
 			<button class="btn" onclick="pubFunc()">Publications</button>
 			<button class="btn" onclick="expFunc()">Experience</button>
+			<button class="btn" onclick="musicFunc()">Music</button>
 		</div>
 
-		<h1>Jacob Wheelock</h1>
+		<h1>About Me</h1>
 		<p id="msg"> Current Tasks:</p>
 		<ul>
 			<li class="list">Add Visual Styles </li>
