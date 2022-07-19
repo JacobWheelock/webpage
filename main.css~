@@ -18,14 +18,18 @@ h1 {
 p {
 	text-align:center;
 	font-size:18px;
-	margin-top:40px;
+	margin-top:60px;
 }
 .section {
 	position:absolute;
+	background: var(--botgrad);
+	border-radius:25px;
+	width:70%;
 	left:40%;
 	top:40%;
 	-webkit-transform:translate(-40%,-40%);
-	transform:translate(-40%,-40%);	
+	transform:translate(-40%,-40%);
+	padding: 15px 32px;
 }
 .image {
 	float:left;
@@ -33,12 +37,17 @@ p {
 	width:40%;
 	height:50%;
 	margin-right:50px;
+	margin-top:20px;
+	margin-left:20px;
+	margin-bottom:20px;
 }
 .dark-theme {
 	--bg: var(--back);
 	--fontColor: var(--ptext);
 }
 .btn {
+	position:sticky;
+	top:0;
 	width: 10%;	
 	padding: 15px 32px;
 	text-align: center;
@@ -66,20 +75,65 @@ p {
 .btn2 {
 	width: 200px;
 	height:50px;
-	margin-left:4%;
-	margin-top:20px;
+	margin-left:5%;
+	margin-top:40px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
 	border: none;
-	border-radius:25px;
+	border-radius:15px;
 	float: left;
 	color: var(--ptext);
-	background-color: var(--botgrad);
+	background-color: var(--menu);
 	transition-duration: 0.4s;
 	cursor:pointer;
 }
 .btn2:hover {
 	background-color: var(--topgrad);
 	color: var(--ptext);
+}
+canvas {
+	display:block;
+	vertical-align:bottom;
+}
+#particles-js {
+  position: absolute;
+  height:100%;
+  width:100%;
+  background-color: var(--bg);
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  background: var(--bg);
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
 }
