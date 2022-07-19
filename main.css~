@@ -11,6 +11,7 @@ body {
 	background: var(--bg);
 	color: var(--fontColor);
 	font-family: helvetica;
+	overflow:clip;
 }
 h1 {
 	text-align:center;
