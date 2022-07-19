@@ -11,7 +11,7 @@ body {
 	background: var(--bg);
 	color: var(--fontColor);
 	font-family: helvetica;
-	overflow:clip;
+	overflow:auto;
 }
 h1 {
 	text-align:center;
@@ -47,8 +47,6 @@ p {
 	--fontColor: var(--ptext);
 }
 .btn {
-	position:sticky;
-	top:0;
 	width: 10%;	
 	padding: 15px 32px;
 	text-align: center;
@@ -68,8 +66,8 @@ p {
 }
 
 .buttons {
-	width: 100%;
 	overflow:auto;
+	width: 100%;
 	background-color: var(--botgrad);
 }
 
@@ -98,6 +96,7 @@ canvas {
 	vertical-align:bottom;
 }
 #particles-js {
+  z-index:-1;
   position: absolute;
   height:100%;
   width:100%;
@@ -108,6 +107,7 @@ canvas {
   background-position: 50% 50%;
 } /* ---- stats.js ---- */
 .count-particles {
+  z-index:-1;
   background: var(--bg);
   position: absolute;
   top: 48px;
