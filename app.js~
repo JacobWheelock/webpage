@@ -17,6 +17,9 @@ function gitFunc() {
 function resFunc() {
 	window.open("Resume.pdf");
 }
+function musicFunc() {
+	window.location.replace("https://jacobwheelock.com/music");
+}
 
 particlesJS("particles-js", {
   particles: {
