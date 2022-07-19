@@ -1,13 +1,13 @@
 'use strict';
 function homeFunc() {
-	window.location.href="/www.jacobwheelock.com/";
+	window.location.replace("https://jacobwheelock.com");
 }
 function aboutFunc() {
-	window.location.href="/www.jacobwheelock.com/about";
+	window.location.replace("https://jacobwheelock.com/about");
 }
 function pubFunc() {
-	window.location.href="/www.jacobwheelock.com/publications";
+	window.location.replace("https://jacobwheelock.com/publications");
 }
 function expFunc() {
-	window.location.href="/www.jacobwheelock.com/experience";
+	window.location.replace("https://jacobwheelock.com/experience");
 }
