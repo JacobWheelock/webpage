@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="main.css">
 	</head>
 	<body class="dark-theme">
+		<div id="particles-js"></div>
 		<div class="buttons">
 			<button class="btn" onclick="homeFunc()">Home</button>
 			<button class="btn" onclick="aboutFunc()">About Me</button>
@@ -15,15 +16,36 @@
 			<button class="btn" onclick="expFunc()">Experience</button>
 			<button class="btn" onclick="musicFunc()">Music</button>
 		</div>
+		<br>
+		<br>
+		<div class="band">
+			<h1>Faced Out
+				<span><img class="small" src="spotify.png" alt="Spotify Link" onclick="facedFunc()"></span>
+				<span><img class="small" src="bc.png" alt="Bandcmp Link" onclick="facedbcFunc()" id="bcF"></span>
+			</h1>
+			<div class="album" id="split">
+				<img class="image" src="split.jpg" alt="Split in My Mouth" onclick="splitFunc()">
+				<h3> Split in my Mouth </h3>
+			</div>
+			<div class="album" id="golden">
+				<img class="image" src="goldenrods.jpg" alt="Goldenrods Sprouting From the Cracks in Your Driveway" onclick="goldenFunc()">
+				<h3> Goldenrods Sprouting From The Cracks In Your Driveway</h3>
+			</div>
+		</div>
+		<div class="band">
+			<h1>Dole's Fruit Company
+				<span><img class="small" src="spotify.png" alt="Spotify Link" onclick="facedFunc()"></span>
+				<span><img class="small" src="bc.png" alt="Bandcmp Link" onclick="facedbcFunc()" id="bcF"></span>
+			</h1>
 
-		<h1>Music</h1>
-		<p id="msg"> Current Tasks:</p>
-		<ul>
-			<li class="list">Add Visual Styles </li>
-			<li class="list">Add Light and Dark Themes </li>
-			<li> Enable Switching the Theme </li>
-		</ul>
-
+			<div class="album" id="dole">
+				<img class="image" src="dole.png" alt="Split in My Mouth" onclick="splitFunc()">
+				<h3> Coming Soon </h3>
+			</div>
+		</div>
+		<br>
+		<br>
+		<script src="../particles/particles.js"></script>
 		<script src="app.js"></script>
 		<noscript>You need to enable JavaScript to view the full site.</noscript>
 	</body>

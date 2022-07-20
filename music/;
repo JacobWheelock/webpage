@@ -16,7 +16,6 @@ body {
 
 h1 {
 	text-align:center;
-	margin-left:-10%;
 }
 h3 {
 	text-align:center;
@@ -74,14 +73,11 @@ p {
 }
 .small {
 	position:absolute;
-	width:5%;
-	height:auto;
+	width:3%;
+	height:3%;
 	cursor:pointer;
-	margin-left:2%;
-	transform:translate(0%,-20%);
-}
-#bcF {
-	transform:translate(140%,-20%);
+	margin-left:1%;
+	top:100px;
 }
 
 .album {
@@ -95,9 +91,6 @@ p {
 #golden {
 	float:right;
 	margin-right:5%;
-}
-#dole {
-	transform:translate(75%,0%);
 }
 .pubBtn {
 	width: 20%;

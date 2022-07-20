@@ -23,8 +23,8 @@ function goldenFunc() {
 function facedFunc() {
 	window.open("https://open.spotify.com/artist/2xA2XNU0Uxh2JMClKRaisr?si=TxXuqJQXQO-xJbywcLPMig");
 }
-function facedbcFunc() {
-	window.open("https://facedout.bandcamp.com/");
+function facedoutbcFunc() {
+
 }
 particlesJS("particles-js", {
   particles: {
