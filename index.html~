@@ -21,6 +21,8 @@
 			<h1>Jacob Wheelock</h1>
 			<p>Undergraduate Electrical Engineering Student at Washington University in St. Louis</p>
 			<p>Researcher in the Brain Dynamics and Control Research Group</p>
+			<p>Drummer in Faced Out and Bassist/Vocalist in Dole's Fruit Company<p>
+
 			<button class="btn2" onclick="gitFunc()">My GitHub</button>
 			<button class="btn2" onclick="resFunc()">My Resume</button>
 		</div>
