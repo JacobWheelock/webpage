@@ -64,10 +64,10 @@ p {
 }
 
 .pubBtn {
-	width: 200px;
-	margin-right:20px;
-	margin-top:10px;	
-	padding: 15px 32px;
+	width: 20%;
+	margin-right:2%;
+	margin-top:1%;	
+	padding: 20px 1%;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -79,7 +79,7 @@ p {
 	background-color: var(--menu);
 	transition-duration: 0.4s;
 	cursor:pointer;
-	transform:translate(35%,0%);
+	transform:translate(90%,0%);
 }
 .pubBtn:hover {
 	background-color: var(--topgrad);
