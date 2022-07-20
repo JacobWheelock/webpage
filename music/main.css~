@@ -97,7 +97,7 @@ p {
 	margin-right:5%;
 }
 #dole {
-	transform:translate(50%,0%);
+	transform:translate(75%,0%);
 }
 .pubBtn {
 	width: 20%;
