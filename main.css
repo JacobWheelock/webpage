@@ -18,7 +18,7 @@ h1 {
 }
 p {
 	text-align:center;
-	font-size:130%;
+	font-size:110%;
 	margin-top:5%;
 }
 .section {
@@ -74,11 +74,11 @@ p {
 
 .btn2 {
 	width: 15%;
-	height:50px;
+	padding:1%;
 	margin-left:9%;
 	text-align: center;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 100%;
 	border: none;
 	border-radius:15px;
 	float: left;
