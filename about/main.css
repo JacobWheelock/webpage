@@ -19,7 +19,7 @@ h1 {
 }
 p {
 	text-align:center;
-	font-size:0.9vw;
+	font-size:1.08vw;
 	margin-top:1.5%;
 }
 .section {
@@ -29,7 +29,7 @@ p {
 	width:70%;
 	left:40%;
 	top:40%;
-	height:50%;
+	height:65%;
 	-webkit-transform:translate(-40%,-40%);
 	transform:translate(-40%,-40%);
 	padding: 1% 2%;
@@ -37,10 +37,10 @@ p {
 .image {
 	float:left;
 	border-radius:50%;
-	width:40%;
+	width:45%;
 	height:90%;
 	margin-right:3%;
-	margin-top:1.5%;
+	margin-top:2%;
 	margin-left:1.5%;
 	margin-bottom:1.5%;
 }
