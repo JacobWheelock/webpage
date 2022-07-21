@@ -19,7 +19,7 @@ h1 {
 p {
 	text-align:center;
 	font-size:0.9vw;
-	margin-top:1.5%;
+	margin-top:2%;
 }
 .section {
 	position:absolute;
