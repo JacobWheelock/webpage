@@ -14,3 +14,127 @@ function expFunc() {
 function musicFunc() {
 	window.location.replace("https://jacobwheelock.com/music");
 }
+var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+
+var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+var slides = document.querySelectorAll(`#${slideshows[0].id} [role="list"] .slide`);
+var research = document.getElementById('research');
+research.style.color = "#B3B3B3";
+slides[0].classList.add('active');
+slides[1].classList.remove('active');
+slides[2].classList.remove('active');
+
+function researchFunc() {
+	var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+	var slides = document.querySelectorAll(`#${slideshows[0].id} [role="list"] .slide`);
+	var res = document.getElementById('research');
+	var teach = document.getElementById('teaching');
+	var pro = document.getElementById('program');
+	res.style.color = "#B3B3B3";
+	teach.style.color = "#FFFFFF";
+	pro.style.color = "#FFFFFF";
+	slides[0].classList.add('active');
+	slides[1].classList.remove('active');
+	slides[2].classList.remove('active');
+}
+
+function teachFunc() {
+	var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+	var slides = document.querySelectorAll(`#${slideshows[0].id} [role="list"] .slide`);
+	var res = document.getElementById('research');
+	var teach = document.getElementById('teaching');
+	var pro = document.getElementById('program');
+	res.style.color = "#FFFFFF";
+	teach.style.color = "#B3B3B3";
+	pro.style.color = "#FFFFFF";
+	slides[1].classList.add('active');
+	slides[0].classList.remove('active');
+	slides[2].classList.remove('active');
+}
+
+function proFunc() {
+	var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+	var slides = document.querySelectorAll(`#${slideshows[0].id} [role="list"] .slide`);
+	var res = document.getElementById('research');
+	var teach = document.getElementById('teaching');
+	var pro = document.getElementById('program');
+	res.style.color = "#FFFFFF";
+	teach.style.color = "#FFFFFF";
+	pro.style.color = "#B3B3B3";
+	slides[2].classList.add('active');
+	slides[0].classList.remove('active');
+	slides[1].classList.remove('active');
+}
+
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 85, density: { enable: true, value_area: 800 } },
+    color: { value: "#ffffff" },
+    shape: {
+      type: "circle",
+      stroke: { width: 0, color: "#000000" },
+      polygon: { nb_sides: 5 },
+      image: { src: "img/github.svg", width: 100, height: 100 }
+    },
+    opacity: {
+      value: 0.5,
+      random: false,
+      anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
+    },
+    size: {
+      value: 3,
+      random: true,
+      anim: { enable: false, speed: 40, size_min: 0.1, sync: false }
+    },
+    line_linked: {
+      enable: true,
+      distance: 284,
+      color: "#ffffff",
+      opacity: 0.6401569631618771,
+      width: 0
+    },
+    move: {
+      enable: true,
+      speed: 6,
+      direction: "none",
+      random: false,
+      straight: false,
+      out_mode: "out",
+      bounce: false,
+      attract: { enable: false, rotateX: 600, rotateY: 1200 }
+    }
+  },
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: { enable: false, mode: "repulse" },
+      onclick: { enable: false, mode: "push" },
+      resize: true
+    },
+    modes: {
+      grab: { distance: 400, line_linked: { opacity: 1 } },
+      bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
+      repulse: { distance: 200, duration: 0.4 },
+      push: { particles_nb: 4 },
+      remove: { particles_nb: 2 }
+    }
+  },
+  retina_detect: true
+});
+var count_particles, stats, update;
+stats = new Stats();
+stats.setMode(0);
+stats.domElement.style.position = "absolute";
+stats.domElement.style.left = "0px";
+stats.domElement.style.top = "0px";
+document.body.appendChild(stats.domElement);
+count_particles = document.querySelector(".js-count-particles");
+update = function () {
+  stats.begin();
+  stats.end();
+  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+  }
+  requestAnimationFrame(update);
+};
+requestAnimationFrame(update);

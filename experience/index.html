@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="main.css">
 	</head>
 	<body class="dark-theme">
+		<div id="particles-js"></div>
 		<div class="buttons">
 			<button class="btn" onclick="homeFunc()">Home</button>
 			<button class="btn" onclick="aboutFunc()">About Me</button>
@@ -15,15 +16,35 @@
 			<button class="btn" onclick="expFunc()">Experience</button>
 			<button class="btn" onclick="musicFunc()">Music</button>
 		</div>
-
-		<h1>Experience</h1>
-		<p id="msg"> Current Tasks:</p>
-		<ul>
-			<li class="list">Add Visual Styles </li>
-			<li class="list">Add Light and Dark Themes </li>
-			<li> Enable Switching the Theme </li>
-		</ul>
-
+		<br>
+		<br>
+		<div class="topic">
+			<h1><span id = "research" onclick="researchFunc()">Research </span> <span id = "teaching" onclick="teachFunc()">Teaching</span> <span id="program" onclick="proFunc()">Programming</span></h1>
+			<div id="researchSlides" data-component="slideshow">
+			<div role="list">
+			<div class="slide">
+				<h4>January 2022 - Ongoing</h4>
+				<h3>Neural Dynamics and Control Research Group</h3>
+				<p>During the spring of 2022 I completed my honors thesis under Dr. ShiNung Ching by developing a real-time transcranial stimulation platform from the ground-up beginning with prototyping on a breadboad					and eventually creating and priting a PCB to house the platform. I now work on using this platform to develop a closed-loop neural feedback system in the pursuit of better understanding the effects of 
+				   electrical stimulation on working memory. </p>
+				<br>
+				<h4>January 2021 - April 2022</h4>
+				<h3>Stream-Based Supercomputing Lab</h3>
+				<p>During my time in the SBS lab, I used the programming language CUDA to parallelize the Compton-scattering reconstruction algorithm and allow it run on a GPU. This work resulted in a first-authorship on 					publication and I spoke at the Urgent HPC workshop at Supercomputing 2021 to deliever my findings. Following this, I worked on developing novel ways to quickly and accurately cluster gamma-ray burst
+				   events in a different part of the same Compton-scattering reconstruction pipeline.</p>
+			</div>
+			<div class="slide">
+				<p>Test</p>
+			</div>
+			<div class="slide">
+				<p>Test</p>
+			</div>
+			</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<script src="../particles/particles.js"></script>
 		<script src="app.js"></script>
 		<noscript>You need to enable JavaScript to view the full site.</noscript>
 	</body>
