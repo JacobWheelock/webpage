@@ -33,7 +33,7 @@ p {
 	border-radius:10px;
 	padding: 1% 2%;
 	overflow:auto;
-	margin-top:30px;
+	margin-top:3%;
 	padding-bottom:2%;
 }
 .dark-theme {
@@ -67,11 +67,11 @@ p {
 }
 .btn {
 	width: 10%;	
-	padding: 15px 32px;
+	padding: 1% 2%;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 1.08vw;
 	border: none;
 	float: left;
 	color: var(--ptext);

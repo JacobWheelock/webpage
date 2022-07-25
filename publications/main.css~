@@ -32,7 +32,7 @@ p {
 	border-radius:10px;
 	padding: 1% 2%;
 	overflow:auto;
-	margin-top:30px;
+	margin-top:3%;
 }
 .dark-theme {
 	--bg: var(--back);
@@ -40,11 +40,11 @@ p {
 }
 .btn {
 	width: 10%;	
-	padding: 15px 32px;
+	padding: 1% 2%;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 1.08vw;
 	border: none;
 	float: left;
 	color: var(--ptext);
@@ -58,8 +58,10 @@ p {
 }
 
 .buttons {
+	top:0px;
 	width: 100%;
 	overflow:auto;
+	position:fixed;
 	background-color: var(--botgrad);
 }
 
@@ -79,7 +81,7 @@ p {
 	background-color: var(--menu);
 	transition-duration: 0.4s;
 	cursor:pointer;
-	transform:translate(85%,0%);
+	transform:translate(90%,0%);
 }
 .pubBtn:hover {
 	background-color: var(--topgrad);
