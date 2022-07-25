@@ -32,7 +32,7 @@ p {
 	border-radius:10px;
 	padding: 1% 2%;
 	overflow:auto;
-	margin-top:3%;
+	margin-top:5%;
 }
 .dark-theme {
 	--bg: var(--back);
@@ -58,6 +58,7 @@ p {
 }
 
 .buttons {
+	z-index:50;
 	top:0px;
 	width: 100%;
 	overflow:auto;

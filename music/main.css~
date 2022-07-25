@@ -72,6 +72,12 @@ p {
 	height:90%;
 	cursor:pointer;
 }
+#this {
+	color: var(--stext);
+}
+#albums {
+	margin-top:1%;
+}
 .small {
 	position:absolute;
 	width:3vw;

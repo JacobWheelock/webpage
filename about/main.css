@@ -33,6 +33,9 @@ p {
 	height:65%;
 	padding: 1% 2%;
 }
+#this {
+	color: var(--stext);
+}
 #text {
 	text-align:justify;
 	font-size:1.08vw;

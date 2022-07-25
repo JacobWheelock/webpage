@@ -49,6 +49,9 @@ p {
 	padding:3%;
 	border-radius:10px;
 }
+#this {
+	color: var(--stext);
+}
 #research {
 	cursor:pointer;
 	margin-left:3%;

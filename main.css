@@ -72,7 +72,9 @@ p {
 	background-color: var(--topgrad);
 	color: var(--ptext);
 }
-
+#this {
+	color: var(--stext);
+}
 .buttons {
 	overflow:auto;
 	width: 100%;

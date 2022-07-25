@@ -38,6 +38,9 @@ p {
 	--bg: var(--back);
 	--fontColor: var(--ptext);
 }
+#this {
+	color: var(--stext);
+}
 .btn {
 	width: 10%;	
 	padding: 1% 2%;
