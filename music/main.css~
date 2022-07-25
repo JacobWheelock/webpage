@@ -61,7 +61,6 @@ p {
 
 .buttons {
 	z-index:100;
-	top:0;
 	position:fixed;
 	width: 100%;
 	overflow:auto;

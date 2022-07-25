@@ -61,8 +61,8 @@ p {
 
 .buttons {
 	z-index:100;
-	top:0;
 	position:fixed;
+	top:0px;
 	width: 100%;
 	overflow:auto;
 	background-color: var(--botgrad);
