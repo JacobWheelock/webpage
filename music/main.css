@@ -74,7 +74,8 @@ p {
 }
 .small {
 	position:absolute;
-	width:5%;
+	width:3vw;
+	height:3vh;
 	height:auto;
 	cursor:pointer;
 	margin-left:2%;
