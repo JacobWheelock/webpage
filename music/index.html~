@@ -19,10 +19,12 @@
 		<br>
 		<br>
 		<div class="band">
+			<div id="intro">
 			<h1>Faced Out
-				<span><img class="small" src="spotify.png" alt="Spotify Link" onclick="facedFunc()"></span>
-				<span><img class="small" src="bc.png" alt="Bandcmp Link" onclick="facedbcFunc()" id="bcF"></span>
+			<img class="small" src="spotify.png" alt="Spotify Link" onclick="facedFunc()">
+			<img class="small" src="bc.png" alt="Bandcmp Link" onclick="facedbcFunc()" id="bcF">
 			</h1>
+			</div>
 			<div id = albums>
 			<div class="album" id="split">
 				<img class="image" src="split.jpg" alt="Split in My Mouth" onclick="splitFunc()">
@@ -39,10 +41,11 @@
 				<span><img class="small" src="spotify.png" alt="Spotify Link" onclick="facedFunc()"></span>
 				<span><img class="small" src="bc.png" alt="Bandcmp Link" onclick="facedbcFunc()" id="bcF"></span>
 			</h1>
-
+			<div id=albums>
 			<div class="album" id="dole">
 				<img class="image" src="dole.png" alt="Split in My Mouth" onclick="splitFunc()">
 				<h3> Coming Soon </h3>
+			</div>
 			</div>
 		</div>
 		<br>

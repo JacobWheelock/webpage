@@ -42,12 +42,12 @@ p {
 	color: var(--stext);
 }
 .btn {
-	width: 10%;	
-	padding: 1% 2%;
+	width: 200px;	
+	padding: 15px 10px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 1.08vw;
+	font-size: 20px;
 	border: none;
 	float: left;
 	color: var(--ptext);

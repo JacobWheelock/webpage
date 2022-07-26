@@ -6,12 +6,20 @@
 	--ptext: #FFFFFF;
 	--stext: #B3B3B3;
 }
-body {
+html, body {
 	margin: 0px;
 	background: var(--bg);
 	color: var(--fontColor);
 	font-family: helvetica;
 	overflow:auto;
+	height:100%;
+	width:100%;
+}
+#page {
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
 }
 h1 {
 	text-align:center;
@@ -19,48 +27,53 @@ h1 {
 }
 p {
 	text-align:center;
-	font-size:1.2vw;
+	font-size:20px;
+
 }
 .section {
-	position:absolute;
+	position:relative;
 	background: var(--botgrad);
 	border-radius:25px;
 	overflow:auto;
-	width:70vw;
-	height:63vh;
-	margin-left:14%;
+	width:80%;
+	height:70%;
 	margin-top:3%;
-	padding: 1% 2%;
+	padding: 20px 20px;
+	display:flex;
 }
 #text {
-	width:50%;
-	margin-left:50%;
-	height:90%;
+	height:95%;
+	flex:1.5;
 	display:flex;
 	flex-direction:column;
 	justify-content:space-between;
 }
-.image {
+#imgCont {
+	height:100%;
+	flex:1;
 	float:left;
+	display:flex;
+	align-items:center;
+}
+.image {
+	position:relative;
+	float:left;
+	overflow:auto;
 	border-radius:50%;
-	width:30vw;
-	height:58vh;
-	margin-right:3%;
-	margin-top:1.5%;
-	margin-left:1.5%;
-	margin-bottom:1.5%;
+	width:100%;
+	height:90%;
 }
 .dark-theme {
 	--bg: var(--back);
 	--fontColor: var(--ptext);
 }
 .btn {
-	width: 10%;	
-	padding: 1% 2%;
+	width: 200px;	
+	padding: 15px 10px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 1.08vw;
+	font-size: 20px;
 	border: none;
 	float: left;
 	color: var(--ptext);
@@ -72,7 +85,9 @@ p {
 	background-color: var(--topgrad);
 	color: var(--ptext);
 }
-
+#this {
+	color: var(--stext);
+}
 .buttons {
 	overflow:auto;
 	width: 100%;
@@ -85,7 +100,7 @@ p {
 	padding:1% 2%;
 	text-align: center;
 	text-decoration: none;
-	font-size: 1.20vw;
+	font-size: 18px;
 	border: none;
 	border-radius:10px;
 	float: left;
@@ -109,7 +124,7 @@ canvas {
 }
 #particles-js {
   z-index:-1;
-  position: absolute;
+  position: fixed;
   height:100%;
   width:100%;
   background-color: var(--bg);

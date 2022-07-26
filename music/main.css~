@@ -16,7 +16,6 @@ body {
 
 h1 {
 	text-align:center;
-	margin-left:-10%;
 }
 h3 {
 	text-align:center;
@@ -24,11 +23,15 @@ h3 {
 p {
 	text-align:center;
 }
+#intro {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
 .band {
 	top:100px;
 	text=align:center;
 	width:60%;
-	height=100%;
 	transform:translate(30%,0%);
 	background: var(--botgrad);
 	border-radius:10px;
@@ -76,19 +79,14 @@ p {
 	color: var(--stext);
 }
 #albums {
-	margin-top:1%;
+	margin-top:3%;
 }
 .small {
-	position:absolute;
-	width:3vw;
-	height:3vh;
+	position:relative;
+	width:35px;
+	height:35px;
 	height:auto;
 	cursor:pointer;
-	margin-left:2%;
-	transform:translate(0%,-20%);
-}
-#bcF {
-	transform:translate(140%,-20%);
 }
 
 .album {
