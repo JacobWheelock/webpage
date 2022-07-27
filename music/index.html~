@@ -16,12 +16,12 @@
 			<button class="btn" onclick="expFunc()">Experience</button>
 			<button class="btn" onclick="musicFunc()" id="this">Music</button>
 		</div>
+		<div id="page">
 		<div class="band">
-			<div id="intro">
-			<h1>Faced Out
+			<div id="intro1">
+			<h1>Faced Out </h1>
 			<img class="small" src="spotify.png" alt="Spotify Link" onclick="facedFunc()">
-			<img class="small" src="bc.png" alt="Bandcmp Link" onclick="facedbcFunc()" id="bcF">
-			</h1>
+			<img class="small" src="bc.png" alt="Bandcmp Link" onclick="facedbcFunc()" id="bcb">
 			</div>
 			<div id = albums>
 			<div class="album" id="split">
@@ -35,16 +35,19 @@
 			</div>
 		</div>
 		<div class="band">
-			<h1>Dole's Fruit Company
-				<span><img class="small" src="spotify.png" alt="Spotify Link" onclick="facedFunc()"></span>
-				<span><img class="small" src="bc.png" alt="Bandcmp Link" onclick="facedbcFunc()" id="bcF"></span>
+			<div id="intro2">
+			<h1>Dole's Fruit Company</h1>
+			<img class="small" src="spotify.png" alt="Spotify Link" onclick="facedFunc()">
+			<img class="small" src="bc.png" alt="Bandcmp Link" onclick="facedbcFunc()" id="bcb">
 			</h1>
+			</div>
 			<div id=albums>
 			<div class="album" id="dole">
 				<img class="image" src="dole.png" alt="Split in My Mouth" onclick="splitFunc()">
 				<h3> Coming Soon </h3>
 			</div>
 			</div>
+		</div>
 		</div>
 		<script src="../particles/particles.js"></script>
 		<script src="app.js"></script>

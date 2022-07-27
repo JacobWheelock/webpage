@@ -29,6 +29,25 @@ p {
 	align-items:center;
 	flex-direction:column;
 }
+#intro1 {
+	display:flex;
+	width:300px;
+	justify-content:space-between;
+	align-items:center;
+	margin-left:auto;
+	margin-right:auto;
+	flex-wrap:wrap;
+
+}
+#intro2 {
+	display:flex;
+	width:500px;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+	margin-left:auto;
+	margin-right:auto;
+}
 .band {
 	text-align:center;
 	width:60%;
@@ -36,7 +55,8 @@ p {
 	border-radius:10px;
 	padding: 1% 2%;
 	overflow:auto;
-	margin-top:3%;
+	margin-top:2%;
+	margin-bottom:1%;
 }
 .dark-theme {
 	--bg: var(--back);
@@ -82,10 +102,13 @@ p {
 }
 .small {
 	position:relative;
-	width:35px;
-	height:35px;
-	height:auto;
+	width:50px;
+	height:50px;
 	cursor:pointer;
+}
+#bcb {
+	width:48px;
+	height:48px;
 }
 
 .album {
