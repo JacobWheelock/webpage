@@ -16,8 +16,6 @@
 			<button class="btn" onclick="expFunc()">Experience</button>
 			<button class="btn" onclick="musicFunc()" id="this">Music</button>
 		</div>
-		<br>
-		<br>
 		<div class="band">
 			<div id="intro">
 			<h1>Faced Out
@@ -48,8 +46,6 @@
 			</div>
 			</div>
 		</div>
-		<br>
-		<br>
 		<script src="../particles/particles.js"></script>
 		<script src="app.js"></script>
 		<noscript>You need to enable JavaScript to view the full site.</noscript>

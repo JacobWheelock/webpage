@@ -15,7 +15,10 @@ body {
 }
 
 h1 {
-	text-align:center;
+	text-align:justify;
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
 }
 h3 {
 	text-align:left;
@@ -23,18 +26,21 @@ h3 {
 p {
 	text-align:left;
 }
+#page {
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
 .topic {
-	top:100px;
 	text=align:center;
 	width:60%;
 	height=100%;
-	transform:translate(30%,0%);
 	background: var(--botgrad);
 	border-radius:10px;
-	padding: 1% 2%;
+	padding: 20px 20px;
 	overflow:auto;
-	margin-top:3%;
-	padding-bottom:2%;
+	margin-top:2%;
 }
 .dark-theme {
 	--bg: var(--back);
@@ -54,27 +60,21 @@ p {
 }
 #research {
 	cursor:pointer;
-	margin-left:3%;
-	margin-right:5%;
 }
 #teaching {
 	cursor:pointer;
-	margin-left:5%;
-	margin-right:3%;
 }
 
 #program {
 	cursor:pointer;
-	margin-left:5%;
-	margin-right:5%;
 }
 .btn {
-	width: 10%;	
-	padding: 1% 2%;
+	width: 200px;	
+	padding: 15px 10px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 1.08vw;
+	font-size: 20px;
 	border: none;
 	float: left;
 	color: var(--ptext);
@@ -89,8 +89,8 @@ p {
 
 .buttons {
 	z-index:100;
+	position:sticky;
 	top:0;
-	position:fixed;
 	width: 100%;
 	overflow:auto;
 	background-color: var(--botgrad);

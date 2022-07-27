@@ -6,12 +6,14 @@
 	--ptext: #FFFFFF;
 	--stext: #B3B3B3;
 }
-body {
+html, body {
 	margin: 0px;
 	background: var(--bg);
 	color: var(--fontColor);
 	font-family: helvetica;
 	overflow:auto;
+	width:100%;
+	height:100%;
 }
 
 h1 {
@@ -23,16 +25,27 @@ h3 {
 p {
 	text-align:center;
 }
+#cont {
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:center;
+}
 .pub {
-	text=align:center;
-	width:50%;
-	height=100%;
-	transform:translate(43%,0%);
+	position:relative;
 	background: var(--botgrad);
 	border-radius:10px;
-	padding: 1% 2%;
 	overflow:auto;
-	margin-top:5%;
+	width:70%;
+	height:fit-content;
+	margin-top:3%;
+	padding: 20px 20px;
+}
+#text {
+	width:90%;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 .dark-theme {
 	--bg: var(--back);
@@ -42,12 +55,12 @@ p {
 	color: var(--stext);
 }
 .btn {
-	width: 10%;	
-	padding: 1% 2%;
+	width: 200px;	
+	padding: 15px 10px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 1.08vw;
+	font-size: 20px;
 	border: none;
 	float: left;
 	color: var(--ptext);
@@ -62,10 +75,10 @@ p {
 
 .buttons {
 	z-index:50;
-	top:0px;
 	width: 100%;
 	overflow:auto;
-	position:fixed;
+	position:sticky;
+	top:0;
 	background-color: var(--botgrad);
 }
 

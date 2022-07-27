@@ -23,16 +23,15 @@ h3 {
 p {
 	text-align:center;
 }
-#intro {
+#page {
 	display:flex;
-	align-items:center;
 	justify-content:center;
+	align-items:center;
+	flex-direction:column;
 }
 .band {
-	top:100px;
-	text=align:center;
+	text-align:center;
 	width:60%;
-	transform:translate(30%,0%);
 	background: var(--botgrad);
 	border-radius:10px;
 	padding: 1% 2%;
@@ -44,12 +43,12 @@ p {
 	--fontColor: var(--ptext);
 }
 .btn {
-	width: 10%;	
-	padding: 1% 2%;
+	width: 200px;	
+	padding: 15px 10px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 1.08vw;
+	font-size: 20px;
 	border: none;
 	float: left;
 	color: var(--ptext);
@@ -64,7 +63,7 @@ p {
 
 .buttons {
 	z-index:100;
-	position:fixed;
+	position:sticky;
 	top:0px;
 	width: 100%;
 	overflow:auto;
