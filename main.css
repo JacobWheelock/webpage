@@ -37,9 +37,10 @@ p {
 	width:80%;
 	height:fit-content;
 	margin-top:3%;
-	padding: 20px 20px;
-	display:flex;
+	padding: 30px 20px;
+
 	flex-direction: row;
+	display:flex;
 
 }
 #text {
@@ -54,7 +55,7 @@ p {
 	box-sizing:content-box;
 
 	margin-bottom:50px;
-	margin-top:5px;
+
 }
 #b1 {
 	display:flex;
@@ -72,8 +73,9 @@ p {
 	display:flex;
 	align-items:center;
 	justify-content:center;
-	margin-top:5px;
-	margin-left: -25px;
+
+
+	padding-right: 2%;
 }
 .image {
 	position:relative;
@@ -81,7 +83,8 @@ p {
 	overflow:auto;
 	border: 1px solid var(--menu);
 	border-radius:25px;
-	width:90%;
+	width:100%;
+	width:auto;
 
 
 }
