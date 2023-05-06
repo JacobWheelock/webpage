@@ -57,6 +57,17 @@ p {
 	--bg: var(--back);
 	--fontColor: var(--ptext);
 }
+a:link {
+	color: #0645AD;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
 .btn {
 	width: 200px;
 	padding: 15px 10px;

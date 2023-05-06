@@ -91,7 +91,6 @@ p {
 }
 .image {
 	width:90%;
-	height:90%;
 	cursor:pointer;
 }
 #this {
@@ -99,6 +98,9 @@ p {
 }
 #albums {
 	margin-top:3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 .small {
 	position:relative;
@@ -117,14 +119,14 @@ p {
 }
 #split {
 	float:left;
-	margin-left:5%;
+
 }
 #golden {
 	float:right;
-	margin-right:5%;
+
 }
 #dole {
-	transform:translate(75%,0%);
+
 }
 .pubBtn {
 	width: 20%;
@@ -158,7 +160,7 @@ canvas {
   height:100%;
   width:100%;
   background-color: var(--bg);
-  background-image: url("");
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;

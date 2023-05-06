@@ -5,6 +5,10 @@ function homeFunc() {
 function aboutFunc() {
 	window.location.replace("https://jacobwheelock.com/about");
 }
+function FOFunc() {
+  window.location.replace("https://open.spotify.com/album/5LagvvE7Lf3MARsA0JFLeF?si=NHj3m5iCSyCh6gHcdjH13Q");
+}
+
 function pubFunc() {
 	window.location.replace("https://jacobwheelock.com/publications");
 }
